@@ -1,7 +1,7 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import BlogPage from './pages/BlogPage';
 import HomePage from './pages/HomePage';
-import Menu from './pages/Menu';
+import Menu from './components/Menu';
 import ProfilePage from './pages/ProfilePage';
 
 function App() {

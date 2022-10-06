@@ -3,7 +3,7 @@ blogData.push({
   title: 'Qué es React',
   slug: 'ques-es-react',
   content: 'React es el mejor framework de JavaScript',
-  author: 'Jairo Dueñas'
+  author: 'jairoduenas'
 });
 blogData.push({
   title: 'Qué es Vue',

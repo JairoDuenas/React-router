@@ -19,42 +19,6 @@ const Menu = () => {
             </li>
           ))}
           
-          {/* <li>
-            <Link to='/'>Home</Link>
-          </li>
-          <li>
-            <Link to='/blog'>Blog</Link>
-          </li>
-          <li>
-            <Link to='/profile'>Profile</Link>
-          </li> */}
-
-          {/* <li>
-            <NavLink
-              to='/'
-              style={({ isActive }) => ({
-                color: isActive ? 'red' : 'blue'
-              })}
-            >
-              Home</NavLink>
-          </li>
-          <li>
-            <NavLink
-              to='/blog'
-              style={({ isActive }) => ({
-                color: isActive ? 'red' : 'blue'
-              })}
-            >Blog</NavLink>
-          </li>
-          <li>
-            <NavLink
-              to='/profile'
-              style={({ isActive }) => ({
-                color: isActive ? 'red' : 'blue'
-              })}
-            >Profile</NavLink>
-          </li> */}
-
         </ul>
       </nav>
     </div>
@@ -73,6 +37,14 @@ routes.push({
 routes.push({
   to: '/profile',
   text: 'Profile'
+});
+routes.push({
+  to: '/login',
+  text: 'Login'
+});
+routes.push({
+  to: '/logout',
+  text: 'Logout'
 });
 
 export default Menu;
